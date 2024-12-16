@@ -20,8 +20,3 @@ for line in matching_lines:
 
 # Сортируем строки по длине
 sorted_lines = sorted(matching_lines, key=len)
-
-# Выводим отсортированные строки по длине
-print("\nОтсортированные строки по длине:")
-for line in sorted_lines:
-    print(line)
